@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>100 фитнес-уроков</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Фитнес уроки" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+	<link href="css/bs-ext.css" rel="stylesheet" />
+	<link href="css/styles.css" rel="stylesheet" />	
+	<link href="css/slick.css" rel="stylesheet" />	
+</head>
+<body>
+	<div class="body-inner">		
+		<header class="headerMain">
+			<div class="container-fluid">				
+				<div class="container-fluid-inner">
+					<div class="wrapperDefault">
+						<div class="wrapperDefault-inner">
+							<div class="row align-items-lg-center">
+								<div class="col col-6 col-lg-2">
+									<a href="" class="logoBlock logoBlock_headerMain" title="FitLife">
+										<img class="pic" src="i/logo_pic.svg" alt="" />
+										<img class="txt" src="i/logo_txt.svg" alt="" />
+									</a>
+								</div>
+								<div class="col col-6 col-lg-10">
+									<div class="headerMain-togglerMobMenu"><div class="headerMain-bars"></div></div>
+									<div class="headerMain_allObjs">
+										<div class="headerMain_obj headerMain_obj_menu">							
+											<ul class="headerMain_menu_list cleanList ff-raleway">
+												<li><a href="">Уроки</a></li>
+												<li><a href="">О проекте</a></li>
+												<li><a href="">Как это работает</a></li>
+												<li><a href="">Оплата</a></li>
+												<li><a href="">Отзывы</a></li>
+												<li><a href="">Контакты</a></li>
+											</ul>
+										</div>
+										<div class="separator d-none d-md-block d-xl-none mt-10px w-100"></div>
+										<div class="headerMain_obj headerMain_obj_reg">
+											<a href="" class="btn btn-sand btn-reg fs-11"><span class="btn-txt">Зарегистрироваться</span></a>
+										</div>
+										<div class="headerMain_obj headerMain_obj_enter">
+											<a href="" class="enter"><img src="i/entrance.svg" alt="Войти в профиль" /></a>
+										</div>
+										<div class="headerMain_obj headerMain_obj_lang">
+											<div class="dropdown dropdown_lang">
+												<a class="dropdown-toggle dropdown_lang_toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="this.parentNode.classList.toggle('active'); event.stopPropagation();">
+												Ru
+												</a>
+
+												<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+													<a class="dropdown-item" href="#">Ru</a>
+													<a class="dropdown-item" href="#">En</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="container-fluid allWidth headerPage">
+			<div class="container-fluid-inner">
+				<div class="wrapperDefault">
+					<div class="wrapperDefault-inner">
+						<picture class="card-img-picture">
+							<source media="(min-width:768px)" srcset="i/page1_header@2x.jpg 1.5x, i/page1_header.jpg 1x">
+							<source media="(min-width:320px)" srcset="i/page1_header@mob.jpg 1.5x">
+							<img border="0" alt="" src="i/page1_header.jpg" />
+						</picture>
+						<h1 class="headerPage-title">Видео-уроки фитнесу</h1>
+					</div>
+				</div>
+			</div>
+		</div>		
+
+		<div class="container-fluid section marbleBack">
+			<div class="container-fluid-inner">
+				<div class="wrapperDefault">
+					<div class="wrapperDefault-inner">
+						<div class="row filterLessons mb-35px">
+							<div class="col-12 col-lg-10">								
+								<div class="row">
+									<div class="col-6 col-lg-3 mb-20px mb-lg-0">
+										<label for="ageInput" class="form-label">Возраст</label>
+										<div class="container-form-select">
+											<select class="form-select">
+												<option selected>18-40</option>
+												<option value="1">41-50</option>
+												<option value="2">51-60</option>
+												<option value="3">Болше 61</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-6 col-lg-3 mb-20px mb-lg-0">
+										<label for="sexInput" class="form-label">Пол</label>
+										<div class="container-form-select">											
+											<select class="form-select">
+												<option selected>Мужчина</option>
+												<option value="1">Женщина</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-6 col-lg-3 mb-20px mb-lg-0">
+										<label for="levelInput" class="form-label">Уровень подготовки</label>
+										<div class="container-form-select">											
+											<select class="form-select">
+												<option selected>Новичок</option>
+												<option value="1">Продвинутый</option>
+												<option value="1">Профессионал</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-6 col-lg-3 mb-20px mb-lg-0">
+										<label for="targetInput" class="form-label">Цель тренировок</label>
+										<div class="container-form-select">											
+											<select class="form-select">
+												<option selected>Похудение</option>
+												<option value="1">Выносливоcть</option>
+												<option value="1">Масса</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-lg-2 text-center text-lg-right d-lg-flex align-items-end text-center">
+								<a href="" class="btn btn-sand btn-searchLessons">Искать</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div class="lessonsList">
+									<div class="card cardLesson">
+										<a href="" class="card-header">											
+											<div class="card-img-top">
+												<picture class="card-img-picture">
+													<source media="(min-width:1024px)" srcset="https://placeimg.com/740/380/arch 1.5x, https://placeimg.com/370/190/arch 1x">
+													<source media="(min-width:768px)" srcset="https://placeimg.com/710/380/arch 1.5x">
+													<source media="(min-width:320px)" srcset="https://placeimg.com/760/380/arch">
+													<img border="0" alt="" src="https://placeimg.com/370/370/arch">
+												</picture>
+											</div>
+										</a>
+										<div class="card-body">
+											<div class="card-title"><a href="">Тренировка на все тело</a></div>
+											<div class="card-text">
+												Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+												cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+											</div>
+										</div>
+										<div class="card-footer">
+											<div class="container-fluid">												
+												<div class="row">												
+													<div class="col-7 pr-0">
+														<a href="" class="btn btn-sand">Купить доступ</a>
+													</div>
+													<div class="col-5">
+														<a href="" class="btn btn-white">Демо</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card cardLesson">
+										<a href="" class="card-header">											
+											<div class="card-img-top">
+												<picture class="card-img-picture">
+													<source media="(min-width:1024px)" srcset="https://placeimg.com/740/380/animals 1.5x, https://placeimg.com/370/190/animals 1x">
+													<source media="(min-width:768px)" srcset="https://placeimg.com/710/380/animals 1.5x">
+													<source media="(min-width:320px)" srcset="https://placeimg.com/760/380/animals">
+													<img border="0" alt="" src="https://placeimg.com/370/370/animals">
+												</picture>
+											</div>
+										</a>
+										<div class="card-body">
+											<div class="card-title"><a href="">Тренировка на все тело</a></div>
+											<div class="card-text">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+												cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+											</div>
+										</div>
+										<div class="card-footer">
+											<div class="container-fluid">												
+												<div class="row">												
+													<div class="col-7 pr-0">
+														<a href="" class="btn btn-sand">Купить доступ</a>
+													</div>
+													<div class="col-5">
+														<a href="" class="btn btn-white">Демо</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card cardLesson">
+										<a href="" class="card-header">											
+											<div class="card-img-top">
+												<picture class="card-img-picture">
+													<source media="(min-width:1024px)" srcset="https://placeimg.com/740/380/people 1.5x, https://placeimg.com/370/190/people 1x">
+													<source media="(min-width:768px)" srcset="https://placeimg.com/710/380/people 1.5x">
+													<source media="(min-width:320px)" srcset="https://placeimg.com/760/380/people">
+													<img border="0" alt="" src="https://placeimg.com/370/370/people">
+												</picture>
+											</div>
+										</a>
+										<div class="card-body">
+											<div class="card-title"><a href="">Тренировка на все тело</a></div>
+											<div class="card-text">
+												Excepteur sint occaecat cupidatat non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+											</div>
+										</div>
+										<div class="card-footer">
+											<div class="container-fluid">												
+												<div class="row">												
+													<div class="col-7 pr-0">
+														<a href="" class="btn btn-sand">Купить доступ</a>
+													</div>
+													<div class="col-5">
+														<a href="" class="btn btn-white">Демо</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card cardLesson">
+										<a href="" class="card-header">											
+											<div class="card-img-top">
+												<picture class="card-img-picture">
+													<source media="(min-width:1024px)" srcset="https://placeimg.com/740/380/nature 1.5x, https://placeimg.com/370/190/nature 1x">
+													<source media="(min-width:768px)" srcset="https://placeimg.com/710/380/nature 1.5x">
+													<source media="(min-width:320px)" srcset="https://placeimg.com/760/380/nature">
+													<img border="0" alt="" src="https://placeimg.com/370/370/nature">
+												</picture>
+											</div>
+										</a>
+										<div class="card-body">
+											<div class="card-title"><a href="">Тренировка на все тело</a></div>
+											<div class="card-text">
+												laboris nisi ut aliquip ex ea commodo
+												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+												cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+											</div>
+										</div>
+										<div class="card-footer">
+											<div class="container-fluid">												
+												<div class="row">												
+													<div class="col-7 pr-0">
+														<a href="" class="btn btn-sand">Купить доступ</a>
+													</div>
+													<div class="col-5">
+														<a href="" class="btn btn-white">Демо</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card cardLesson">
+										<a href="" class="card-header">											
+											<div class="card-img-top">
+												<picture class="card-img-picture">
+													<source media="(min-width:1024px)" srcset="https://placeimg.com/740/380/tech 1.5x, https://placeimg.com/370/190/tech 1x">
+													<source media="(min-width:768px)" srcset="https://placeimg.com/710/380/tech 1.5x">
+													<source media="(min-width:320px)" srcset="https://placeimg.com/760/380/tech">
+													<img border="0" alt="" src="https://placeimg.com/370/370/tech">
+												</picture>
+											</div>
+										</a>
+										<div class="card-body">
+											<div class="card-title"><a href="">Тренировка на все тело</a></div>
+											<div class="card-text">
+												Duis aute irure dolor in reprehenderit in voluptate velit esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+												cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+											</div>
+										</div>
+										<div class="card-footer">
+											<div class="container-fluid">												
+												<div class="row">												
+													<div class="col-7 pr-0">
+														<a href="" class="btn btn-sand">Купить доступ</a>
+													</div>
+													<div class="col-5">
+														<a href="" class="btn btn-white">Демо</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card cardLesson empty"></div>
+
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 text-center">
+								<a href="" class="btn btn-white">Загрузить еще</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footerMain">
+			<div class="container-fluid">				
+				<div class="container-fluid-inner">
+					<div class="wrapperDefault">
+						<div class="wrapperDefault-inner">
+							<dov class="row footerMain-inner">
+								<div class="col col-4">
+									<ul class="footerMain_menu_list cleanList ff-raleway">
+										<li><a href="">Уроки</a></li>
+										<li><a href="">Отзывы</a></li>
+										<li><a href="">Как это работает</a></li>
+										<li><a href="">О проекте</a></li>
+										<li><a href="">Оплата</a></li>
+										<li><a href="">Контакты</a></li>
+									</ul>
+									<div class="footerMain_copyr ff-raleway">
+										&copy;&nbsp;Все права защищены 2021
+									</div>									
+								</div>
+								<div class="col col-4">
+									<a href="" class="logoBlock logoBlock_footerMain logoBlock_vertical" title="FitLife">
+										<img class="pic" src="i/logo_pic.svg" alt="" />
+										<img class="txt" src="i/logo_txt.svg" alt="" />
+									</a>
+								</div>
+								<div class="col col-4 d-flex flex-wrap justify-content-end">
+									<div class="form-group mb-0 footerMain_subscribe">
+                                        <form class="footerMain_subscribe_form" method="post" action="">
+                                            <input class="form-control" name="email" type="email" placeholder="E-mail" pattern="\S+@\S+\.\w{2,}" />
+                                            <div class="btn btn-sand btn-sendEmail">                                            	
+	                                            <input class="sendEmail" type="submit" value="" name="" />
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="footerMain_socials">                                    	
+	                                    <a href="" class="footerMain_social fb"></a>
+	                                    <a href="" class="footerMain_social yt"></a>
+	                                    <a href="" class="footerMain_social ig"></a>
+                                    </div>
+								</div>
+							</dov>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer> 
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+	<script src="js/common.js"></script>	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>
